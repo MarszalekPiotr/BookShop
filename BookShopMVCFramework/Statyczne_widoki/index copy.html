@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    
+	<title>Moja strona</title>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+		}
+		header {
+			background-color: #333;
+			color: #fff;
+			display: flex;
+			justify-content: space-around;
+			align-items: center;
+			padding: 10px 20px;
+		}
+		.logo {
+			font-size: 24px;
+			font-weight: bold;
+			text-transform: uppercase;
+		}
+		.logo a {
+			color: #fff;
+			text-decoration: none;
+		}
+		.nav {
+			display: flex;
+			align-items: center;
+            justify-content: space-around;
+            
+		}
+		.nav li {
+			list-style: none;
+			margin-right: 10px;
+		}
+		.nav li:last-child {
+			margin-right: 0;
+		}
+		.nav a {
+			color: #fff;
+			text-decoration: none;
+		}
+		.category-list {
+			display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;  /* opcjonalnie: rozłożenie elementów wzdłuż osi poziomej */
+           
+            
+		}
+		.category {
+			display: flex;
+			align-items: center;
+			flex: 0 0 calc(33.33% - 10px); /* opcjonalnie: szerokość elementu, odjęcie marginesów */
+             /* opcjonalnie: margines na dole elementu */
+            border:2px solid black;
+            border-radius: 30px;
+		}
+		.category:last-child {
+			margin-right: 0;
+		}
+		.category-icon {
+			display: inline-block;
+			width: 30px;
+			height: 30px;
+			margin-right: 5px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: contain;
+            }
+           .category-image{
+           
+              display:flex;
+              justify-content:center;
+              align-items:center;
+              margin: 5%;
+           }
+		
+		.products {
+			display: flex;
+			flex-wrap: wrap;
+			padding: 20px;
+		}
+		.product {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			width: 30%;
+			height: 150px;
+			background-color: #f2f2f2;
+			margin-right: 2%;
+			margin-bottom: 20px;
+			transition: background-color 0.2s ease-in-out;
+		}
+		.product:hover {
+			background-color: #ccc;
+		}
+		.product-img {
+			width: 80px;
+			height: 80px;
+			margin-bottom: 10px;
+			background-repeat: no-repeat;
+			background-position: center center;
+			background-size: contain;
+		}
+		.product-title {
+			font-weight: bold;
+			margin-bottom: 5px;
+			text-align: center;
+		}
+		.product-price {
+			font-size: 14px;
+			color: #666;
+			text-align: center;
+		}
+		.product-row {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 20px;
+		}
+		.product-box {
+			flex-basis: calc(33.33% - 20px);
+			background-color: #f2f2f2;
+			margin: 10px;
+			padding: 20px;
+			text-align: center;
+		}
+		.product-img-small {
+			width: 80px;
+			height: 80px;
+			margin-bottom: 10px;
+			background-repeat: no-repeat;
+			background-position: center
+        }
+
+		.product-box h3 {
+			font-size: 16px;
+			margin-bottom: 10px;
+		}
+
+		.product-box p {
+			font-size: 14px;
+			color: #666;
+			margin-bottom: 10px;
+		}
+
+		.product-box img {
+			width: 100px;
+			height: 100px;
+			margin-bottom: 10px;
+			background-color: #ddd;
+		}
+
+		.product-box button {
+			background-color: #333;
+			color: #fff;
+			padding: 10px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			transition: background-color 0.2s ease-in-out;
+		}
+
+		.product-box button:hover {
+			background-color: #444;
+		}
+
+		.category-list {
+			display: flex;
+			flex-wrap: wrap;
+			margin: 20px 0;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.category-list img {
+			width: 150px;
+			height: auto;
+			margin: 20px 0;
+		}
+        
+        footer a.btn {
+             color: #333;
+             font-size: 16px;
+             font-weight: bold;
+             margin-right: 10px;
+             text-decoration: none;
+             transition: color 0.3s ease;
+         }
+
+          footer a.btn:hover {
+           color: #007bff;
+          }
+       
+          .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin :5%;
+          }
+    
+         li{
+              
+              margin :2%;
+              }
+
+        
+        
+	</style>
+</head>
+<body>
+	<header>
+		<div class="logo"><a href="#">Ksiegarnia on-line</a></div>
+		<nav>
+			<ul class="nav">
+				<li><a href="#">Strona główna</a></li>
+				<li><a href="#">O nas</a></li>
+				<li><a href="#">Kontakt</a></li>
+			</ul>
+		</nav>
+		<div class="cart-fb">
+			 
+             
+			<a href="#"><img src="https://i.imgur.com/1bFJIjt.png" alt="zdjecie koszyka">
+            <p> cena </p>
+        </a>
+		</div>
+	</header>
+	<div class="container">
+		<div class="row">
+		  <div class="col-md-4">
+			<aside>
+			  <h2>Nagłówek</h2>
+			  <img src="zdjecie.jpg" alt="Opis zdjęcia"><p> elo 
+			  </p>
+			</aside>
+		  </div>
+		</div>
+	  </div>
+	  
+ 
+	<div class="category-image">
+		<img src="https://i.imgur.com/1C11NIm.jpg" alt="Zdjęcie kategorii">
+	</div>
+	<div class="products">
+		<div class="product">
+			<div class="product-img" style="background-image: url('https://i.imgur.com/ZRRlKvT.png')"></div>
+			<div class="product-title">Produkt 1</div>
+			<div class="product-price">Cena: 99 zł</div>
+		</div>
+		<div class="product">
+			<div class="product-img" style="background-image: url('https://i.imgur.com/Tu5yJmE.png')"></div>
+			<div class="product-title">Produkt 2</div>
+			<div class="product-price">Cena: 149 zł</div>
+		</div>
+		<div class="product">
+			<div class="product-img" style="background-image: url('https://i.imgur.com/yZpOSuN.png')"></div>
+			<div class="product-title">Produkt 3</div>
+			<div class="product-price">Cena: 199 zł</div>
+            	
+		</div>
+        	<div class="product">
+			<div class="product-img" style="background-image: url('https://i.imgur.com/ZRRlKvT.png')"></div>
+			<div class="product-title">Produkt 1</div>
+			<div class="product-price">Cena: 99 zł</div>
+            <div class > <button> elo</button>  </div>
+		</div>
+        	<div class="product">
+			<div class="product-img" style="background-image: url('https://i.imgur.com/ZRRlKvT.png')"></div>
+			<div class="product-title">Produkt 1</div>
+			<div class="product-price">Cena: 99 zł</div>
+		</div>
+        	<div class="product">
+			<div class="product-img" style="background-image: url('https://i.imgur.com/ZRRlKvT.png')"></div>
+			<div class="product-title">Produkt 1</div>
+			<div class="product-price">Cena: 99 zł</div>
+		</div>
+        	<div class="product">
+			<div class="product-img" style="background-image: url('https://i.imgur.com/ZRRlKvT.png')"></div>
+			<div class="product-title">Produkt 1</div>
+			<div class="product-price">Cena: 99 zł</div>
+		</div>
+        </div>
+
+
+
+        </body>
+</html>

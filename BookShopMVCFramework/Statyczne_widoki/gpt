@@ -1,0 +1,32 @@
+<div class="card  ">
+    <img style="max-height: 300px;"  src="https://th.bing.com/th/id/R.4a10f8f134a768517ff62efdea9f586e?rik=Ha3FkzXFuKMwmw&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tytul i Autor</h5>
+      <p class="card-text">Opis.</p>
+      <button class ="btn-primary"> Kup se  </button>
+    </div>
+  </div>
+  <div class="card  ">
+    <img style="max-height: 300px;"  src="https://th.bing.com/th/id/R.4a10f8f134a768517ff62efdea9f586e?rik=Ha3FkzXFuKMwmw&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tytul i Autor</h5>
+      <p class="card-text">Opis.</p>
+      <button class ="btn-primary"> Kup se  </button>
+    </div>
+  </div>
+  <div class="card  ">
+    <img style="max-height: 300px;"  src="https://th.bing.com/th/id/R.4a10f8f134a768517ff62efdea9f586e?rik=Ha3FkzXFuKMwmw&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tytul i Autor</h5>
+      <p class="card-text">Opis.</p>
+      <button class ="btn-primary"> Kup se  </button>
+    </div>
+  </div>
+  <div class="card  ">
+    <img style="max-height: 300px;"  src="https://th.bing.com/th/id/R.4a10f8f134a768517ff62efdea9f586e?rik=Ha3FkzXFuKMwmw&pid=ImgRaw&r=0" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Tytul i Autor</h5>
+      <p class="card-text">Opis.</p>
+      <button class ="btn-primary"> Kup se  </button>
+    </div>
+  </div>
